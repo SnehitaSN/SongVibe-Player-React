@@ -4,6 +4,12 @@ import Player from "./Components/Player";
 function App() {
   const [songs] = useState([
     {
+      title: "Take You Dancing",
+      artist: "Jason Derulo",
+      img_src: "./images/JasonDerulo-TakeYouDancing.jpg",
+      src: "./music/JasonDerulo-TakeYouDancing.mp3",
+    },
+    {
       title: "Titaliya",
       artist: "Hardy Sandhu",
       img_src: "./images/titaliya.jpg",
@@ -36,12 +42,7 @@ function App() {
       img_src: "./images/ParovStelarGeorgiaGibbs-TangoDelFuego.jpg",
       src: "./music/ParovStelarGeorgiaGibbs-TangoDelFuego.mp3",
     },
-    {
-      title: "Take You Dancing",
-      artist: "Jason Derulo",
-      img_src: "./images/JasonDerulo-TakeYouDancing.jpg",
-      src: "./music/JasonDerulo-TakeYouDancing.mp3",
-    },
+ 
     {
       title: "Daisy",
       artist: "Ashnikko",
